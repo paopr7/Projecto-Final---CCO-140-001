@@ -5,14 +5,14 @@
 - Pablo A. Pagán Rodriguez
 - Axel E. Ortiz Paulino
 
-## DESCRIPCION
+## ═══════ DESCRIPCION ═══════
   En este repositorio, encontramos varios algoritmos de _ordenamiento_ y _búsqueda_ repasados en clase. 
   
  &ensp; **Cada algoritmo contiene:** 
   - Código de ejemplo
   - Descripción breve de cómo funciona
 
-### Programas Incluidos
+### Programas Incluidos 
 * 🔁 Ordenamiento 
   * Bubble Sort
   * Insertion Sort
@@ -26,7 +26,7 @@
 
 * 💻 Programación Basada en Objetos (OOP) 
 
-## ALGORITMOS
+## ═══════ ALGORITMOS ═══════
 ### Ordenamiento 
 
 #### Bubble Sort 🫧:
@@ -103,8 +103,8 @@
 * Desventajas:
   * [Aquí]
           
-## EXPLICACIONES SIMPLES
+## ═══════ EXPLICACIONES SIMPLES ═══════
 
-## RESULTADOS/OBSERVACIONES
+## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
-## REFLEXIÓN
+## ═══════ REFLEXIÓN ═══════
