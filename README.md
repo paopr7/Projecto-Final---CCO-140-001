@@ -5,7 +5,7 @@
 - Pablo A. Pagán Rodriguez
 - Axel E. Ortiz Paulino
 
-## ═══════ DESCRIPCION ═══════
+## ═══════ DESCRIPCIÓN ═══════
   En este repositorio, encontramos varios algoritmos de _ordenamiento_ y _búsqueda_ repasados en clase. 
   
  &ensp; **Cada algoritmo contiene:** 
