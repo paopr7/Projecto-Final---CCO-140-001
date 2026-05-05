@@ -107,4 +107,15 @@
 
 ## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
+### Ordenamiento
+| Algoritmo    | ¿Fácil de Entender? | ¿Efectivo para data grande? | ¿Necesita memoria extra? |
+|---------------|------------------------|---------------------|---------------------|
+| Bubble Sort   | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+| Insertion Sort| [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+| Merge Sort    | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+| Quick Sort    | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+| Search Sort   | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+
+
+
 ## ═══════ REFLEXIÓN ═══════
