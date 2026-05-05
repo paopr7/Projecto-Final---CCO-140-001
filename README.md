@@ -1,5 +1,5 @@
 # Projecto Final - CCO 140 001
-**Hecho Por:**
+### Hecho Por:
 - Rodrigo A. Tejeda Pichardo
 - Diego A. Bobea Santos
 - Pablo A. Pagán Rodriguez
@@ -14,15 +14,95 @@
 
 ### Programas Incluidos
 * 🔁 Ordenamiento 
-  * Bubble Sort 
-  * Slection Sort
+  * Bubble Sort
+  * Insertion Sort
+  * Merge Sort
+  * Quick Sort
+  * Search Sort
     
 * 🔎 Búsqueda 
   * Linear Search 
   * Binary Search
 
-## ALGORITMOS
+* 💻 Programación Basada en Objetos (OOP) 
 
+## ALGORITMOS
+### Ordenamiento 
+
+#### Bubble Sort 🫧:
+            [Código Aquí]
+* Descripción:
+  * [Aquí]
+  
+* ¿Cómo Funciona?:
+   * [Aquí]
+  
+* Ventajas:
+  * [Aquí]
+  
+* Desventajas:
+  * [Aquí]
+  
+
+#### Insertion Sort 📩:
+            [Código Aquí]
+* Descripción:
+  * [Aquí]
+  
+* ¿Cómo Funciona?:
+   * [Aquí]
+  
+* Ventajas:
+  * [Aquí]
+  
+* Desventajas:
+  * [Aquí]
+
+
+#### Merge Sort 🔀:
+            [Código Aquí]
+* Descripción:
+  * [Aquí]
+  
+* ¿Cómo Funciona?:
+   * [Aquí]
+  
+* Ventajas:
+  * [Aquí]
+  
+* Desventajas:
+  * [Aquí]
+
+  
+#### Quick Sort ⚡:
+            [Código Aquí]
+* Descripción:
+  * [Aquí]
+  
+* ¿Cómo Funciona?:
+   * [Aquí]
+  
+* Ventajas:
+  * [Aquí]
+  
+* Desventajas:
+  * [Aquí]
+
+  
+#### Search Sort 🔎:
+            [Código Aquí]
+* Descripción:
+  * [Aquí]
+  
+* ¿Cómo Funciona?:
+   * [Aquí]
+  
+* Ventajas:
+  * [Aquí]
+  
+* Desventajas:
+  * [Aquí]
+          
 ## EXPLICACIONES SIMPLES
 
 ## RESULTADOS/OBSERVACIONES
