@@ -1,9 +1,5 @@
 // Pablo Pagán Rodríguez
 // 600024638
-// Escuela de Salud y Ciencias, Universidad Sagrado Corazón
-// CCO 140 001 PROGRAMACION ORIENTADA A OBJETOS
-// Prof. Antonio Vantaggiato 
-// 7 de mayo de 2026
 
 /* Algorithm: 
     1. Comienzo
