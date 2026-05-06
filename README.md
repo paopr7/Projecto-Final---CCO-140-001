@@ -278,7 +278,7 @@ private static int partition(int[] arr, int low, int high) {
 | Algoritmo    | ¿Fácil de Entender? | ¿Efectivo para data grande? | ¿Necesita memoria extra? |
 |---------------|------------------------|---------------------|---------------------|
 | Bubble Sort   | Sí        | No       | No |
-| Insertion Sort| [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+| Insertion Sort| Si        | No       | No    |
 | Merge Sort    | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
 | Quick Sort    | Moderadamente difícil          | Muy eficiente       | No, usualmente no lo afecta |
 | Search Sort   | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
