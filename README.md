@@ -28,6 +28,7 @@
 
 ## ═══════ ALGORITMOS ═══════
 ### Ordenamiento 
+﹌﹌﹌﹌﹌﹌﹌
 
 #### Bubble Sort 🫧:
  ``` java
@@ -63,7 +64,9 @@
 <hr>
  
 #### Insertion Sort 📩:
+``` java
             [Código Aquí]
+```
 * Descripción:
   * [Aquí]
   
@@ -79,7 +82,9 @@
 <hr>
 
 #### Merge Sort 🔀:
+``` java
             [Código Aquí]
+```
 * Descripción:
   * [Aquí]
   
@@ -93,6 +98,8 @@
   * [Aquí]
 
 <hr>
+
+
   
 #### Quick Sort ⚡:
   ``` java
@@ -151,7 +158,9 @@ private static int partition(int[] arr, int low, int high) {
 <hr>
   
 #### Search Sort 🔎:
+``` java
             [Código Aquí]
+```
 * Descripción:
   * [Aquí]
   
@@ -163,6 +172,60 @@ private static int partition(int[] arr, int low, int high) {
   
 * Desventajas:
   * [Aquí]
+
+<hr>
+
+
+
+
+
+
+
+
+
+### Búsqueda
+﹌﹌﹌﹌﹌﹌﹌
+#### Linear Search 🔢:
+``` java
+            [Código Aquí]
+```
+
+* Descripción:
+  * El más simple de los algoritmos de búsqueda. Fácil de entender e implementar.
+  
+* ¿Cómo Funciona?:
+   * Chequea cada elemento del array, uno por uno, hasta encontrar el elemento deseado. 
+  
+* Ventajas:
+  * Extremadamente simple
+  * Fácil de entender y leer
+  * Funciona con cualquier array
+  
+* Desventajas:
+  * Muy lento con data grande
+
+<hr>
+
+#### Binary Search 🌗:
+``` java
+            [Código Aquí]
+```
+
+* Descripción:
+  * Un algoritmo de busqueda que se especializa en buscar dentro de arrays grandes. Requiere que el array esté ordenado.
+  
+* ¿Cómo Funciona?:
+   * Este algortimo toma y revisa el elemento del medio del array.
+   * Luego, dependiendo de si el blanco es mayor o menor que el elemento medio, elimina una mitad del array.
+   * Luego, repite este proceso hasa encontrar el blanco, cortando el array por la mitad con cada ciclo.
+  
+* Ventajas:
+  * Perfecto para buscar dentro de arrays grandes
+  * Fácil de entender
+  
+* Desventajas:
+  * Requiere un array ordenado.
+
           
 ## ═══════ EXPLICACIONES SIMPLES ═══════
 
