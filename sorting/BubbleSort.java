@@ -53,11 +53,11 @@ public class Main {
         imprimirArreglo(datos);
 
         // Calcula el tiempo del sort
-        long startTime = System.nanoTime();
+        long start = System.nanoTime();
         sort(datos);
-        long endTime = System.nanoTime();
+        long end = System.nanoTime();
         
-        long duration = endTime - startTime;
+        long duration = end - start;
 
         System.out.println("\nSorted Array:");
         imprimirArreglo(datos);
