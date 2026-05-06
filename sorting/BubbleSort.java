@@ -19,7 +19,7 @@ import java.io.*;
 public class Main {
     
     // Algorítmo Bubble Sort
-     public static void sort(int[] arr) {
+     public static void BubbleSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; ++i) {
             for (int j = 0; j < n - i - 1; ++j) {
@@ -30,15 +30,15 @@ public class Main {
                 }
             }
         }
-    } // Fin de programa
+    } // Fin del algorítmo
     
     // Método para imprimir el array
-    public static void imprimirArreglo(int[] arreglo) {
-        for (int i :  arreglo) {
+    public static void imprimirArray(int[] arr) {
+        for (int i :  arr) {
             System.out.print(i + " ");
         }
         System.out.println();
-    }
+    } // Fin del programa ImprimirArray
 
     public static void main(String[] args) {
         int[] datos = {47,  12,  89,  3,  76,  55,  28,  91,  64,  7,  39,  100,  18,  83,  26,  60,  95,  41,  9,  72}; // Array de 20 números
@@ -46,18 +46,18 @@ public class Main {
         System.out.println("==== Bubble Sort Array ====\n");
         
         System.out.println("Unsorted Array:");
-        imprimirArreglo(datos);
+        imprimirArray(datos);
 
         // Calcula el tiempo del sort
         long start = System.nanoTime();
-        sort(datos);
+        BubbleSort(datos);
         long end = System.nanoTime();
         
         long duration = end - start;
 
         System.out.println("\nSorted Array:");
-        imprimirArreglo(datos);
+        imprimirArray(datos);
         
         System.out.println("\nAverage Bubble Sort time: " + duration + " nanoseconds");
-    }
-}
+    } // Fin del programa main
+} // Fin de clase Main
