@@ -32,16 +32,19 @@
 #### Bubble Sort 🫧:
             [Código Aquí]
 * Descripción:
-  * [Aquí]
+  * El más simple de todos los algoritmos de ordenamiento. Es fácil de entender y no requiere memoria extra.
   
 * ¿Cómo Funciona?:
-   * [Aquí]
+   * Revisa cada elemento de un arreglo, comparándolo con el que le sigue en la secuencia. Si el elemento es mayor que el que le sigue, se invierte su orden.
+   * Al final de cada ciclo, el elemento **mas** grande estará en su posición correcta.
   
 * Ventajas:
-  * [Aquí]
+  * Fácil de leer
+  * Tiene una lógica simple
   
 * Desventajas:
-  * [Aquí]
+  * No es eficiente ordenando data grande.
+  * El algoritmo de ordenamiento más lento.
   
 
 #### Insertion Sort 📩:
