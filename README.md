@@ -30,7 +30,21 @@
 ### Ordenamiento 
 
 #### Bubble Sort 🫧:
-            [Código Aquí]
+ ``` java
+             // Algorítmo Bubble Sort
+               public static void BubbleSort(int[] arr) {
+                  int n = arr.length;
+                  for (int i = 0; i < n - 1; ++i) {
+                      for (int j = 0; j < n - i - 1; ++j) {
+                          if (arr[j] > arr[j + 1]) {
+                              int temp = arr[j];
+                              arr[j] = arr[j + 1];
+                              arr[j + 1] = temp;
+                            }
+                        }
+                    }
+                } // Fin del algorítmo
+  ``` 
 * Descripción:
   * El más simple de todos los algoritmos de ordenamiento. Es fácil de entender y no requiere memoria extra.
   
@@ -45,9 +59,9 @@
 * Desventajas:
   * No es eficiente ordenando data grande.
   * El algoritmo de ordenamiento más lento.
-  
-<hr>
 
+<hr>
+ 
 #### Insertion Sort 📩:
             [Código Aquí]
 * Descripción:
@@ -81,18 +95,58 @@
 <hr>
   
 #### Quick Sort ⚡:
-            [Código Aquí]
+  ``` java
+  // Algorítmo Quick Sort
+  public static void QuickSort(int[] arr) {
+        if (arr != null && arr.length > 1) {
+            quickSort(arr, 0, arr.length - 1);
+        }
+    }
+    
+private static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int pivotIndex = partition(arr, low, high);
+            quickSort(arr, low, pivotIndex - 1);
+            quickSort(arr, pivotIndex + 1, high);
+        }
+    }
+    
+private static int partition(int[] arr, int low, int high) {
+  int pivot = arr[high];  
+    int i = low - 1;
+        
+ for (int j = low; j < high; j++) {
+ if (arr[j] <= pivot) {
+       i++;
+        int temp = arr[i];
+        arr[i] = arr[j];
+      arr[j] = temp;
+    }
+  }
+        
+  int temp = arr[i + 1];
+  arr[i + 1] = arr[high];
+  arr[high] = temp;
+        
+  return i + 1;
+} // Fin del algorítmo QuickSort
+```
+
 * Descripción:
-  * [Aquí]
+  * Es un algoritmo rápido, basado en la estrategia de "divide y vercerás".
   
 * ¿Cómo Funciona?:
-   * [Aquí]
+   * Este algortimo elige un elemento del array, convirtiendolo en **pivote**.
+   * Luego, pone los elementos más pequeños a la **isquierda** del pivote y más grandes a la **derecha** el pivote.
+   * Usando **recursión**, repite este proceso con las partes divididas del array, eligiendo un nuevo pivote cada vez hasta quedar ordenado 
   
 * Ventajas:
-  * [Aquí]
+  * Uno de los algoritmos de ordenamiento más rápidos.
+  * No usa memoria extra, solo recursión.
   
 * Desventajas:
-  * [Aquí]
+  * Cómplicado, y no es fácil de leer.
+  * Aunque es rápido, su rapidez varía mucho dependiendo de los pivotes que elija el algoritmo.
 
 <hr>
   
