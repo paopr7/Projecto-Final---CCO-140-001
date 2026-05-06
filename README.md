@@ -46,6 +46,7 @@
   * No es eficiente ordenando data grande.
   * El algoritmo de ordenamiento más lento.
   
+<hr>
 
 #### Insertion Sort 📩:
             [Código Aquí]
@@ -61,6 +62,7 @@
 * Desventajas:
   * [Aquí]
 
+<hr>
 
 #### Merge Sort 🔀:
             [Código Aquí]
@@ -76,6 +78,7 @@
 * Desventajas:
   * [Aquí]
 
+<hr>
   
 #### Quick Sort ⚡:
             [Código Aquí]
@@ -91,6 +94,7 @@
 * Desventajas:
   * [Aquí]
 
+<hr>
   
 #### Search Sort 🔎:
             [Código Aquí]
