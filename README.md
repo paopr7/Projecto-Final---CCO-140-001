@@ -110,10 +110,10 @@
 ### Ordenamiento
 | Algoritmo    | ¿Fácil de Entender? | ¿Efectivo para data grande? | ¿Necesita memoria extra? |
 |---------------|------------------------|---------------------|---------------------|
-| Bubble Sort   | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+| Bubble Sort   | Sí        | No       | No |
 | Insertion Sort| [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
 | Merge Sort    | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
-| Quick Sort    | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
+| Quick Sort    | Moderadamente difícil          | Muy eficiente       | No, usualmente no lo afecta |
 | Search Sort   | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
 
 
