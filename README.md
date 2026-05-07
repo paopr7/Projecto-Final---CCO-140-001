@@ -276,7 +276,7 @@ private static int partition(int[] arr, int low, int high) {
  * 2. Si el número de la izquierda es más grande que el de la derecha, se intercambian; si no, pues sigue al siguiente número.
  * 3. Continua este loop hasta que todos los datos estén ordenados.
 
-  ## Example:
+* Example:
   * {1, 3, 2}
     * Compara 1 con 3: Como 1 < 3, 1 se queda donde está.
     * Compara 3 con 2: Como 3 < 2, 3 se cambia a la posición de 2.
@@ -287,7 +287,7 @@ private static int partition(int[] arr, int low, int high) {
  * 2. Los números menores del pivot se hechan a la izquierda y los mayores se hechan a la derecha.
  * 3. Se repite el proceso con un nuevo pivot.
 
-  ## Example:
+* Example:
   * {5, 2, 7, 1, 4}
   * Pivot: 5
   * Smaller than 5: {2, 1, 4}; bigger than 5: {7}
