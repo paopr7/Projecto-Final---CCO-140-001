@@ -446,7 +446,7 @@ public class Search {//comienzo de clase Search
     * Smaller than 2: {1}; bigger than 2: {4}
   * It organizes the array to: {1, 2, 4, 5, 7}
  
-###Merge Sort 
+### Merge Sort 
 1. Merge Sort divide el array en listas pequeñas para que sea más fácil de resolver.
 2. Combina o mezcla las listas pequeñas hasta que se ordene la lista original.
 3. Se crea la lista ordenada a base del procedimiento.
