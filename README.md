@@ -53,8 +53,8 @@
    * Al final de cada ciclo, el elemento **más** grande estará en su posición correcta.
   
 * Ventajas:
-  * Fácil de leer
-  * Tiene una lógica simple
+  * Fácil de leer.
+  * Tiene una lógica simple.
   
 * Desventajas:
   * No es eficiente ordenando data grande.
