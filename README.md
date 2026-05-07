@@ -270,32 +270,6 @@ private static int partition(int[] arr, int low, int high) {
 
 <hr>
   
-#### Search Sort 🔎:
-``` java
-            [Código Aquí]
-```
-* Descripción:
-  * [Aquí]
-  
-* ¿Cómo Funciona?:
-   * [Aquí]
-  
-* Ventajas:
-  * [Aquí]
-  
-* Desventajas:
-  * [Aquí]
-
-<hr>
-
-
-
-
-
-
-
-
-
 ### Búsqueda
 ﹌﹌﹌﹌﹌﹌﹌
 #### Linear Search 🔢:
@@ -461,15 +435,15 @@ public class Search {//comienzo de clase Search
   * Lista finalmente ordenada: [1, 3, 4, 6]
 ## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
-### Ordenamiento
+### Ordenamiento y Búsqueda
 | Algoritmo     | ¿Fácil de Entender?    | ¿Efectivo para data grande? | ¿Necesita memoria extra?   |
 |---------------|------------------------|-----------------------------|--------------------------  |
 | Bubble Sort   | Sí                     | No                          | No                         |
 | Insertion Sort| Si                     | No                          | No                         |
 | Merge Sort    | No                     | Sí                          | Sí                         |
 | Quick Sort    | Moderadamente difícil  | Muy eficiente               | No, usualmente no lo afecta|
-| Search Sort   | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
-
+| Linear Search | Sí                     | No                          | No                         |
+| Binary Search | Sí                     | Sí                          | No                         |
 
 
 ## ═══════ REFLEXIÓN ═══════
