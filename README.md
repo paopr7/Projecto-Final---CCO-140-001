@@ -293,8 +293,7 @@ private static int partition(int[] arr, int low, int high) {
   * Smaller than 5: {2, 1, 4}; bigger than 5: {7}
   * New pivot: 5
   * Smaller than 2: {1}; bigger than 2: {4}
-  * - It organizes the array to:
-  * {1, 2, 4, 5, 7}
+  * - It organizes the array to: {1, 2, 4, 5, 7}
 ## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
 ### Ordenamiento
