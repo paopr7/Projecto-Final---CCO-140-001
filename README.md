@@ -300,7 +300,34 @@ private static int partition(int[] arr, int low, int high) {
 ﹌﹌﹌﹌﹌﹌﹌
 #### Linear Search 🔢:
 ``` java
-            [Código Aquí]
+  public class Search {//comienzo de clase Search
+   public static int linearSearch(int[] arr, int target) { //Comienza linear search
+        int steps = 0;
+        System.out.println("Buscando: " + target);
+        
+        
+        
+        for (int i = 0; i < arr.length; i++) {
+            steps++;
+            
+            //imprime el resultado si se encuentra el índice
+            if (arr[i] == target) {
+                System.out.println("¡Objetivo Encontrado! El Objetivo " + target + " está en el índice " + i + ".");
+                System.out.println("Total de pasos: " + steps);
+                System.out.println("===================");
+                System.out.println();
+                System.out.println("===================");
+                return i;
+            }
+            
+        }
+        //Imprime el error del search si no se encuentra el índice
+        System.out.println("[ERROR] El objetivo " + target + " no se encuentra en el array.");
+        System.out.println("Total de pasos: " + steps);
+        System.out.println("===================");
+        System.out.println();
+        return -1; 
+   } //Linear search fin
 ```
 
 * Descripción:
@@ -418,15 +445,29 @@ public class Search {//comienzo de clase Search
     * New pivot: 5
     * Smaller than 2: {1}; bigger than 2: {4}
   * It organizes the array to: {1, 2, 4, 5, 7}
+ 
+###Merge Sort 
+1. Merge Sort divide el array en listas pequeñas para que sea más fácil de resolver.
+2. Combina o mezcla las listas pequeñas hasta que se ordene la lista original.
+3. Se crea la lista ordenada a base del procedimiento.
+
+ *Example:
+  * {6, 3, 1, 4, }
+  * Dividir por la mitad primero: [6, 3] y [1, 4]
+  * Dividir otra vez hasta tener los elementos individuales: [6] [3] [4] [1]
+  * Ahora mezclar el [6] con el [3] y combinarlos de menor a mayor. [3, 6]
+  * Hacer lo mismo con el [1] y el [4] = [1, 4]
+  * Finalmente, combinar las dos listas: [1, 3, 4, 6]
+  * Lista finalmente ordenada: [1, 3, 4, 6]
 ## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
 ### Ordenamiento
-| Algoritmo    | ¿Fácil de Entender? | ¿Efectivo para data grande? | ¿Necesita memoria extra? |
-|---------------|------------------------|---------------------|---------------------|
-| Bubble Sort   | Sí        | No       | No |
-| Insertion Sort| Si        | No       | No    |
-| Merge Sort    | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
-| Quick Sort    | Moderadamente difícil          | Muy eficiente       | No, usualmente no lo afecta |
+| Algoritmo     | ¿Fácil de Entender?    | ¿Efectivo para data grande? | ¿Necesita memoria extra?   |
+|---------------|------------------------|-----------------------------|--------------------------  |
+| Bubble Sort   | Sí                     | No                          | No                         |
+| Insertion Sort| Si                     | No                          | No                         |
+| Merge Sort    | No                     | Sí                          | Sí                         |
+| Quick Sort    | Moderadamente difícil  | Muy eficiente               | No, usualmente no lo afecta|
 | Search Sort   | [PLACEHOLDER]          | [PLACEHOLDER]       | [PLACEHOLDER] |
 
 
