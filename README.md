@@ -272,29 +272,29 @@ private static int partition(int[] arr, int low, int high) {
           
 ## ═══════ EXPLICACIONES SIMPLES ═══════
 ### Bubble Sort:
- 1. Bubble sort compara cada número de un array en orden de izquierda a derecha.
- 2. Si el número de la izquierda es más grande que el de la derecha, se intercambian; si no, pues sigue al siguiente número.
- 3. Continua este loop hasta que todos los datos estén ordenados.
+ * 1. Bubble sort compara cada número de un array en orden de izquierda a derecha.
+ * 2. Si el número de la izquierda es más grande que el de la derecha, se intercambian; si no, pues sigue al siguiente número.
+ * 3. Continua este loop hasta que todos los datos estén ordenados.
 
-  *Example:
-  {1, 3, 2}
-    1. Compara 1 con 3: Como 1 < 3, 1 se queda donde está.
-    2. Compara 3 con 2: Como 3 < 2, 3 se cambia a la posición de 2.
-  Array Final: {1, 2, 3}
+  * Example:
+  * {1, 3, 2}
+    * 1. Compara 1 con 3: Como 1 < 3, 1 se queda donde está.
+    * 2. Compara 3 con 2: Como 3 < 2, 3 se cambia a la posición de 2.
+  * Array Final: {1, 2, 3}
 
 ### Quick Sort:
- 1. Quick Sort determina un número pivot en el array y examina los números que son mayor y menor que él.
- 2. Los números menores del pivot se hechan a la izquierda y los mayores se hechan a la derecha.
- 3. Se repite el proceso con un nuevo pivot.
+ * 1. Quick Sort determina un número pivot en el array y examina los números que son mayor y menor que él.
+ * 2. Los números menores del pivot se hechan a la izquierda y los mayores se hechan a la derecha.
+ * 3. Se repite el proceso con un nuevo pivot.
 
-  *Example:
-  {5, 2, 7, 1, 4}
-  Pivot: 5
-  Smaller than 5: {2, 1, 4}; bigger than 5: {7}
-  New pivot: 5
-  Smaller than 2: {1}; bigger than 2: {4}
-  - It organizes the array to:
-    {1, 2, 4, 5, 7}
+  * Example:
+  * {5, 2, 7, 1, 4}
+  * Pivot: 5
+  * Smaller than 5: {2, 1, 4}; bigger than 5: {7}
+  * New pivot: 5
+  * Smaller than 2: {1}; bigger than 2: {4}
+  * - It organizes the array to:
+  * {1, 2, 4, 5, 7}
 ## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
 ### Ordenamiento
