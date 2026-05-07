@@ -473,4 +473,4 @@ public class Search {//comienzo de clase Search
 
 
 ## ═══════ REFLEXIÓN ═══════
-### Durante el transcurso de este curso, aprendimos mucho sobre distintos temas fundamentales de la programación. Aunque a veces nos hayamos quedado atascados en algunas partes, siempre aprendemos y nos adaptamos. Aprendimos materas como OOP, polimorfismo y como archivar, que nos dejan organizar diferentes datos fácilmente. Incluso aprendimos sobre los arrays y como organizarlos o buscar datos en ellos. Ahora, ya preparados, podemos llevar estos métodos al próximo curso con confianza.
+### Durante el transcurso de este curso, aprendimos mucho sobre distintos temas fundamentales de la programación. Aunque a veces nos hayamos quedado atascados en algunas partes, siempre aprendemos y nos adaptamos. Aprendimos materas como OOP, polimorfismo y como archivar, que nos dejan organizar diferentes datos fácilmente. Incluso aprendimos sobre los arrays y como organizarlos o buscar datos en ellos. Ahora, ya preparados, podemos llevar estos métodos al próximo curso con confianza en nuestras habilidades.
