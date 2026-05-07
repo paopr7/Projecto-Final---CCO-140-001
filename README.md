@@ -18,7 +18,6 @@
   * Insertion Sort
   * Merge Sort
   * Quick Sort
-  * Search Sort
     
 * 🔎 Búsqueda 
   * Linear Search 
@@ -396,7 +395,7 @@ public class Search {//comienzo de clase Search
 
           
 ## ═══════ EXPLICACIONES SIMPLES ═══════
-### Bubble Sort:
+### Bubble Sort 🫧:
    1. Bubble sort compara cada número de un array en orden de izquierda a derecha.
    2. Si el número de la izquierda es más grande que el de la derecha, se intercambian; si no, pues sigue al siguiente número.
    3. Continua este loop hasta que todos los datos estén ordenados.
@@ -407,34 +406,7 @@ public class Search {//comienzo de clase Search
     * Compara 3 con 2: Como 3 < 2, 3 se cambia a la posición de 2.
   * Array Final: {1, 2, 3}
 
-### Quick Sort:
-   1. Quick Sort determina un número pivot en el array y examina los números que son mayor y menor que él.
-   2. Los números menores del pivot se hechan a la izquierda y los mayores se hechan a la derecha.
-   3. Se repite el proceso con un nuevo pivot.
-
-* Example:
-  * {5, 2, 7, 1, 4}
-    * Pivot: 5
-    * Smaller than 5: {2, 1, 4}; bigger than 5: {7}
-    * New pivot: 5
-    * Smaller than 2: {1}; bigger than 2: {4}
-  * It organizes the array to: {1, 2, 4, 5, 7}
- 
-### Merge Sort 
-1. Merge Sort divide el array en listas pequeñas para que sea más fácil de resolver.
-2. Combina o mezcla las listas pequeñas hasta que se ordene la lista original.
-3. Se crea la lista ordenada a base del procedimiento.
-
- *Example:
-  * {6, 3, 1, 4, }
-  * Dividir por la mitad primero: [6, 3] y [1, 4]
-  * Dividir otra vez hasta tener los elementos individuales: [6] [3] [4] [1]
-  * Ahora mezclar el [6] con el [3] y combinarlos de menor a mayor. [3, 6]
-  * Hacer lo mismo con el [1] y el [4] = [1, 4]
-  * Finalmente, combinar las dos listas: [1, 3, 4, 6]
-  * Lista finalmente ordenada: [1, 3, 4, 6]
-
-### Insertion Sort 
+### Insertion Sort 📩:
 1. La primera persona de la fila se queda donde está (porque una sola persona ya está "ordenada").
 2. sacas a la siguiente persona de la fila y la comparas con los que ya están organizados.
 3. Esa persona va caminando hacia atrás en la fila hasta que encuentra a alguien más bajito que ella; ahí se mete en el medio.
@@ -448,6 +420,34 @@ public class Search {//comienzo de clase Search
   * Fila: [1, 3, 6], 4
   * Paso 4: Sacas al 4. El 4 es más pequeño que el 6, pero más grande que el 3. Se mete justo entre ellos dos.
   * Fila final: [1, 3, 4, 6]
+ 
+### Merge Sort 🔀: 
+1. Merge Sort divide el array en listas pequeñas para que sea más fácil de resolver.
+2. Combina o mezcla las listas pequeñas hasta que se ordene la lista original.
+3. Se crea la lista ordenada a base del procedimiento.
+
+ *Example:
+  * {6, 3, 1, 4, }
+  * Dividir por la mitad primero: [6, 3] y [1, 4]
+  * Dividir otra vez hasta tener los elementos individuales: [6] [3] [4] [1]
+  * Ahora mezclar el [6] con el [3] y combinarlos de menor a mayor. [3, 6]
+  * Hacer lo mismo con el [1] y el [4] = [1, 4]
+  * Finalmente, combinar las dos listas: [1, 3, 4, 6]
+  * Lista finalmente ordenada: [1, 3, 4, 6]
+
+### Quick Sort ⚡:
+   1. Quick Sort determina un número pivot en el array y examina los números que son mayor y menor que él.
+   2. Los números menores del pivot se hechan a la izquierda y los mayores se hechan a la derecha.
+   3. Se repite el proceso con un nuevo pivot.
+
+* Example:
+  * {5, 2, 7, 1, 4}
+    * Pivot: 5
+    * Smaller than 5: {2, 1, 4}; bigger than 5: {7}
+    * New pivot: 5
+    * Smaller than 2: {1}; bigger than 2: {4}
+  * It organizes the array to: {1, 2, 4, 5, 7}
+
 
 ## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
