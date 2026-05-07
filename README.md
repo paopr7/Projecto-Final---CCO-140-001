@@ -50,7 +50,7 @@
   
 * ¿Cómo Funciona?:
    * Revisa cada elemento de un arreglo, comparándolo con el que le sigue en la secuencia. Si el elemento es mayor que el que le sigue, se invierte su orden.
-   * Al final de cada ciclo, el elemento **mas** grande estará en su posición correcta.
+   * Al final de cada ciclo, el elemento **más** grande estará en su posición correcta.
   
 * Ventajas:
   * Fácil de leer
@@ -402,8 +402,8 @@ public class Search {//comienzo de clase Search
 
 * Example:
   * {1, 3, 2}
-    * Compara 1 con 3: Como 1 < 3, 1 se queda donde está.
-    * Compara 3 con 2: Como 3 < 2, 3 se cambia a la posición de 2.
+  * Compara 1 con 3: Como 1 < 3, 1 se queda donde está.
+  * Compara 3 con 2: Como 3 < 2, 3 se cambia a la posición de 2.
   * Array Final: {1, 2, 3}
 
 ### Insertion Sort 📩:
@@ -411,22 +411,22 @@ public class Search {//comienzo de clase Search
 2. sacas a la siguiente persona de la fila y la comparas con los que ya están organizados.
 3. Esa persona va caminando hacia atrás en la fila hasta que encuentra a alguien más bajito que ella; ahí se mete en el medio.
 
- *Example:
-  * {6, 3, 1, 4, }
-  * Paso 1: El 6 es el primero, se queda quieto.
-  * Paso 2: Sacas al 3. Como el 3 es más pequeño que el 6, el 6 se mueve un paso a la derecha y el 3 se pone al frente.
-  * Fila: [3, 6], 1, 4
-  * Paso 3: Sacas al 1. El 1 es más pequeño que el 6 y que el 3, así que camina hasta el puro principio de la fila.
-  * Fila: [1, 3, 6], 4
-  * Paso 4: Sacas al 4. El 4 es más pequeño que el 6, pero más grande que el 3. Se mete justo entre ellos dos.
-  * Fila final: [1, 3, 4, 6]
- 
+ * Example:
+    * {6, 3, 1, 4, }
+    * Paso 1: El 6 es el primero, se queda quieto.
+    * Paso 2: Sacas al 3. Como el 3 es más pequeño que el 6, el 6 se mueve un paso a la derecha y el 3 se pone al frente.
+    * Fila: [3, 6], 1, 4
+    * Paso 3: Sacas al 1. El 1 es más pequeño que el 6 y que el 3, así que camina hasta el puro principio de la fila.
+    * Fila: [1, 3, 6], 4
+    * Paso 4: Sacas al 4. El 4 es más pequeño que el 6, pero más grande que el 3. Se mete justo entre ellos dos.
+    * Fila final: [1, 3, 4, 6]
+   
 ### Merge Sort 🔀: 
 1. Merge Sort divide el array en listas pequeñas para que sea más fácil de resolver.
 2. Combina o mezcla las listas pequeñas hasta que se ordene la lista original.
 3. Se crea la lista ordenada a base del procedimiento.
 
- *Example:
+* Example:
   * {6, 3, 1, 4, }
   * Dividir por la mitad primero: [6, 3] y [1, 4]
   * Dividir otra vez hasta tener los elementos individuales: [6] [3] [4] [1]
@@ -442,10 +442,10 @@ public class Search {//comienzo de clase Search
 
 * Example:
   * {5, 2, 7, 1, 4}
-    * Pivot: 5
-    * Smaller than 5: {2, 1, 4}; bigger than 5: {7}
-    * New pivot: 5
-    * Smaller than 2: {1}; bigger than 2: {4}
+  * Pivot: 5
+  * Smaller than 5: {2, 1, 4}; bigger than 5: {7}
+  * New pivot: 5
+  * Smaller than 2: {1}; bigger than 2: {4}
   * It organizes the array to: {1, 2, 4, 5, 7}
 
 
