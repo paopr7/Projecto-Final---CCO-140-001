@@ -126,19 +126,89 @@ public class InsertionSort {
 
 #### Merge Sort 🔀:
 ``` java
-            [Código Aquí]
+public class Merge {
+    public static void merge(int[] arr,  int left,  int mid,  int right) {
+        int n1 = mid - left + 1; 
+        int n2 = right - mid;
+        
+        int[] leftArray = new int[n1];
+        int[] rightArray = new int[n2];
+        
+        
+        for (int i = 0; i < n1; i ++) {
+            leftArray[i] = arr[left + i];
+            
+        }
+        
+        for (int j = 0; j < n2; j++) {
+            rightArray[j] = arr[mid + 1 + j];
+        }
+        
+        int i = 0,  j = 0;
+        
+        
+        int k = left;
+        
+        while (i < n1 && j < n2) {
+            if (leftArray[i] <= rightArray[j]) {
+                arr[k] = leftArray[i];
+               i++;
+           } else {
+               arr[k] = rightArray[j];
+               j++;
+           }
+           k++;
+           }
+           
+            while (i < n1) {
+           arr[k] = leftArray[i];
+           i++;
+           k++;
+       }
+        
+         while (j < n2) {
+           arr[k] = rightArray[j];
+           j++;
+           k++;
+       }
+        }
+    
+    public static void mergeSort(int[] arr,  int left,  int right) {
+       if (left < right) {
+           // Encontrar el punto medio
+           int mid = left + (right - left) / 2;
+           
+           // Ordenar la primera mitad
+           mergeSort(arr,  left,  mid);
+           
+           // Ordenar la segunda mitad
+           mergeSort(arr,  mid + 1,  right);
+           
+           // Mezclar las dos mitades ordenadas
+           merge(arr,  left,  mid,  right);
+           
+           // Mostrar el estado del array despus de cada merge
+           System.out.println("Despues de mezclar indices " + left + " a " + right + ": " + 
+                              Arrays.toString(Arrays.copyOfRange(arr, left, right + 1)));
+           System.out.println();
+       }
+   }
+   
 ```
 * Descripción:
-  * [Aquí]
+  * Merge Sort es un algoritmo de ordenamiento estable y eficiente y basado en el paradigma de "dividir y vencerás".
   
 * ¿Cómo Funciona?:
-   * [Aquí]
+   * Este sort funciona dividiendo recursivamente una lista desordenada en un sublistas hasta llegar a solamente elementos para despues fusionarlas (merge) las sublistas para despues ordenarlas.
   
 * Ventajas:
-  * [Aquí]
+  * Es recursiva
+  * Es estable, mantiene el orden relativo de los elementos con claves iguales
+  * Eficiencia consistente, ofrece un tiempo de ejecución, en los mejores, peores y promedios de los casos.
   
 * Desventajas:
-  * [Aquí]
+  * Uso de memoria adicional
+  * No es eficiente en conjuntos pequeños
 
 <hr>
 
