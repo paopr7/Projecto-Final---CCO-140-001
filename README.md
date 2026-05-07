@@ -433,6 +433,22 @@ public class Search {//comienzo de clase Search
   * Hacer lo mismo con el [1] y el [4] = [1, 4]
   * Finalmente, combinar las dos listas: [1, 3, 4, 6]
   * Lista finalmente ordenada: [1, 3, 4, 6]
+
+###Insertion Sort
+1.La primera persona de la fila se queda donde está (porque una sola persona ya está "ordenada").
+2. Sacas a la siguiente persona de la fila y la comparas con los que ya están organizados.
+3.Esa persona va caminando hacia atrás en la fila hasta que encuentra a alguien más bajito que ella; ahí se mete en el medio.
+
+*Example:
+*{6, 3, 1, 4}
+*Paso 1: El 6 es el primero, se queda quieto.
+*Paso 2: Sacas al 3. Como el 3 es más pequeño que el 6, el 6 se mueve un paso a la derecha y el 3 se pone al frente.
+*Fila: [3, 6], 1, 4
+*Paso 3: Sacas al 1. El 1 es más pequeño que el 6 y que el 3, así que camina hasta el puro principio de la fila.
+*Fila: [1, 3, 6], 4
+*Paso 4: Sacas al 4. El 4 es más pequeño que el 6, pero más grande que el 3. Se mete justo entre ellos dos.
+*Fila final: [1, 3, 4, 6]
+
 ## ═══════ RESULTADOS/OBSERVACIONES ═══════
 
 ### Ordenamiento y Búsqueda
